@@ -47,7 +47,8 @@
         },
         {
             "name": "T",
-            "alg": "r U R' U' L' U R U'"
+            "alg": "r U R' U' L' U R U'",
+            "group": "Step 2: Corners"
         },
         {
             "name": "L",
