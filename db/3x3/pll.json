@@ -1,0 +1,117 @@
+{
+    "cases": "./cases/pll",
+    "algs": [
+        {
+            "name": "H",
+            "alg": "M2 U M2 U2 M2 U M2",
+            "group": "Edges"
+        },
+        {
+            "name": "Ua",
+            "alg": "M2 U M U2 M' U M2",
+            "group": "Edges"
+        },
+        {
+            "name": "Ub",
+            "alg": "M2 U' M U2 M' U' M2",
+            "group": "Edges"
+        },
+        {
+            "name": "Z",
+            "alg": "M2 U' M2 U' M' U2 M2 U2 M' U2",
+            "group": "Edges"
+        },
+
+
+
+        {
+            "name": "Aa",
+            "alg": "x R2 D2 R U R' D2 R U' R",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "Ab",
+            "alg": "x R' U R' D2 R U' R' D2 R2",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "E",
+            "alg": "x' (R U' R') D (R U R') D' (R U R') D (R U' R') D'",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "F",
+            "alg": "R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "Ja",
+            "alg": "R' U L' U2 R U' R' U2 R L",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "Jb",
+            "alg": "R U R' F' R U R' U' R' F R2 U' R'",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "T",
+            "alg": "R U R' U' R' F R2 U' R' U' R U R' F'",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "Ra",
+            "alg": "L U2 L' U2 L F' L' U' L U L F L2",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "Rb",
+            "alg": "R' U2 R U2 R' F R U R' U' R' F' R2",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "Ga",
+            "alg": "R2 U R' U R' U' R U' R2 U' D R' U R D'",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "Gb",
+            "alg": "R' U' R U D' R2 U R' U R U' R U' R2 D",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "Gc",
+            "alg": "R2 U' R U' R U R' U R2 U D' R U' R' D",
+            "group": "Adjacent Corner Swap"
+        },
+        {
+            "name": "Gd",
+            "alg": "R U R' U' D R2 U' R U' R' U R' U R2 D'",
+            "group": "Adjacent Corner Swap"
+        },
+
+
+
+
+        {
+            "name": "Y",
+            "alg": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+            "group": "Diagonal Corner Swap"
+        },
+        {
+            "name": "Na",
+            "alg": "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'",
+            "group": "Diagonal Corner Swap"
+        },
+        {
+            "name": "Nb",
+            "alg": "R' U R U' R' F' U' F R U R' F R' F' R U' R",
+            "group": "Diagonal Corner Swap"
+        },
+        {
+            "name": "V",
+            "alg": "R' U R' U' y R' F' R2 U' R' U R' F R F",
+            "group": "Diagonal Corner Swap"
+        }
+    ]
+}
