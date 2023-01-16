@@ -3,7 +3,7 @@
     "algs": [
         {
             "name": "Dot",
-            "alg": "(F R U R' U' F') (f R U R' U' f')",
+            "alg": "F (R U R' U') S (R U R' U') f'",
             "group": "Step 1: Edges"
         },
         {
